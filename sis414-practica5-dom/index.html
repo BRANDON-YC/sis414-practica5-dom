@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 5 · Manipulación del DOM (SIS-414 G-2)</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Práctica 5 · Fundamentos de Manipulación del DOM</h1>
+      <p id="intro">Demostración de <code>textContent</code> vs <code>innerHTML</code>, creación dinámica de elementos y manejo de eventos + Fetch API.</p>
+    </header>
+
+    <main id="app" class="card">
+      <section class="controls">
+        <label for="pokemonName">Buscar Pokémon:</label>
+        <input id="pokemonName" placeholder="pikachu" />
+        <button id="searchBtn">Buscar</button>
+        <button id="clearBtn" class="secondary">Limpiar</button>
+      </section>
+
+      <section id="result" class="result" aria-live="polite"></section>
+
+      <section class="demo">
+        <h2>Demo textContent vs innerHTML</h2>
+        <div id="demoBox" class="demo-box"></div>
+        <button id="demoTextContent">Usar textContent</button>
+        <button id="demoInnerHTML" class="secondary">Usar innerHTML</button>
+      </section>
+    </main>
+
+    <footer>
+      <small>Hecho para SIS-414 · 2025</small>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

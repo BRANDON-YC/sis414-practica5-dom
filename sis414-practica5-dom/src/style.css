@@ -1,0 +1,17 @@
+
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; }
+body { margin: 0; padding: 2rem; background: #0f172a; color: #e2e8f0; }
+header h1 { margin: 0 0 0.25rem 0; }
+header p { margin-top: 0; color: #94a3b8; }
+.card { background: #111827; border: 1px solid #1f2937; border-radius: 16px; padding: 1rem; max-width: 700px; }
+.controls { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+input { padding: .6rem .7rem; border-radius: 10px; border: 1px solid #334155; background: #0b1220; color: #e2e8f0; }
+button { padding: .6rem .9rem; border-radius: 10px; border: 1px solid #334155; background: #1d4ed8; color: white; cursor: pointer; }
+button.secondary { background: #334155; }
+button:active { transform: translateY(1px); }
+.result { min-height: 120px; background: #0b1220; border: 1px dashed #334155; border-radius: 12px; padding: .75rem; }
+.pokemon { display: grid; grid-template-columns: 120px 1fr; gap: .75rem; align-items: center; }
+.pokemon img { width: 120px; height: 120px; image-rendering: pixelated; }
+.demo { margin-top: 1rem; }
+.demo-box { background: #0b1220; border: 1px dashed #334155; padding: .75rem; border-radius: 12px; min-height: 48px; }
+footer { margin-top: 1rem; color: #94a3b8; }
